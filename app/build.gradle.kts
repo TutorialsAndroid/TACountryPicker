@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.library.tacountrypicker"
+    namespace = "com.sample.tacountrypicker"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.library.tacountrypicker"
+        applicationId = "com.sample.tacountrypicker"
         minSdk = 28
         targetSdk = 35
         versionCode = 1
