@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
 
-</RelativeLayout>
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Country Picker"
+        app:titleCentered="true"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/countryCodeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:visibility="visible">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCountryCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
