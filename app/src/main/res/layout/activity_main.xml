@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         app:title="Country Picker"
         app:titleCentered="true"
-        android:background="#FFAB00"/>
+        app:titleTextColor="@color/white"
+        android:background="@color/purple_500"/>
 
     <TextView
         android:id="@+id/hint_text"
