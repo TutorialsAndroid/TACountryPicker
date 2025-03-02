@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TACountryPicker</string>
+    <string name="etCountryCodeHint">Country</string>
+    <string name="hint_text">Click on the input field to show the country picker dialog</string>
 </resources>
