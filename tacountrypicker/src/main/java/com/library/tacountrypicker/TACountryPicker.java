@@ -21,7 +21,7 @@ import org.json.JSONObject;
 
 public class TACountryPicker {
     private AlertDialog dialog;
-    private OnCountrySelectedListener listener;
+    private final OnCountrySelectedListener listener;
     private List<CountryModel> countryList;
     private List<CountryModel> filteredList;
 
