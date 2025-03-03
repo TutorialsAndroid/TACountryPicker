@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
@@ -21,6 +22,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class TACountryPicker {
+    private static final String TAG = TACountryPicker.class.getSimpleName();
+
     private AlertDialog dialog;
     private final OnCountrySelectedListener listener;
     private final List<CountryModel> countryList;
@@ -100,7 +103,7 @@ public class TACountryPicker {
                 countries.add(new CountryModel(name, code, emoji));
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            Log.e(TAG, e.toString());
         }
         return countries;
     }
