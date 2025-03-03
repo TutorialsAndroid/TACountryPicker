@@ -22,7 +22,7 @@ import org.json.JSONObject;
 public class TACountryPicker {
     private AlertDialog dialog;
     private final OnCountrySelectedListener listener;
-    private List<CountryModel> countryList;
+    private final List<CountryModel> countryList;
     private List<CountryModel> filteredList;
 
     public interface OnCountrySelectedListener {
