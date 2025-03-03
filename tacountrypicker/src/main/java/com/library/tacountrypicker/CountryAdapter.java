@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.ViewHolder> {
-    private List<CountryModel> countryList;
-    private OnCountryClickListener listener;
+    private final List<CountryModel> countryList;
+    private final OnCountryClickListener listener;
 
     public interface OnCountryClickListener {
         void onCountrySelected(CountryModel country);
