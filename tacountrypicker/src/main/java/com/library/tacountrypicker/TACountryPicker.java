@@ -1,5 +1,6 @@
 package com.library.tacountrypicker;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -53,6 +54,7 @@ public class TACountryPicker {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
+            @SuppressLint("NotifyDataSetChanged")
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 String query = s.toString().toLowerCase();
