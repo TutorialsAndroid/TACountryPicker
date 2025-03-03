@@ -32,7 +32,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.ViewHold
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         CountryModel country = countryList.get(position);
-        holder.textView.setText(country.getEmoji() + " " + country.getName() + " (" + country.getDialCode() + ")");
+        holder.textView.setText(String.format("%s %s (%s)", country.getEmoji(), country.getName(), country.getDialCode()));
         holder.itemView.setOnClickListener(v -> listener.onCountrySelected(country));
     }
 
