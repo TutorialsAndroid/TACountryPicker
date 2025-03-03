@@ -1,9 +1,9 @@
 package com.library.tacountrypicker;
 
 public class CountryModel {
-    private String name;
-    private String dialCode;
-    private String emoji;
+    private final String name;
+    private final String dialCode;
+    private final String emoji;
 
     public CountryModel(String name, String dialCode, String emoji) {
         this.name = name;
