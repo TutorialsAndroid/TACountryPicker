@@ -23,7 +23,7 @@ public class TACountryPicker {
     private AlertDialog dialog;
     private final OnCountrySelectedListener listener;
     private final List<CountryModel> countryList;
-    private List<CountryModel> filteredList;
+    private final List<CountryModel> filteredList;
 
     public interface OnCountrySelectedListener {
         void onCountrySelected(CountryModel country);
