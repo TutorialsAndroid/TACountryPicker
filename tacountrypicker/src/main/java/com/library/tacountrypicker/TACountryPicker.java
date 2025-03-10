@@ -76,7 +76,7 @@ public class TACountryPicker {
 
         dialog = new MaterialAlertDialogBuilder(context)
                 .setIcon(R.drawable.baseline_location_pin_24)
-                .setTitle("Select Your Country")
+                .setTitle(R.string.select_your_country_dialog_title)
                 .setView(view)
                 .create();
         dialog.show();

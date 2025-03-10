@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="etSearchCountryHint">Search country…</string>
+    <string name="select_your_country_dialog_title">Select Your Country</string>
 </resources>
