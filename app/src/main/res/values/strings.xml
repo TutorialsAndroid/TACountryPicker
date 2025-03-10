@@ -2,4 +2,5 @@
     <string name="app_name">TACountryPicker</string>
     <string name="etCountryCodeHint">Select Country</string>
     <string name="hint_text">Click on the input field to show the country picker dialog</string>
+    <string name="country_picker_toolbar_title">Country Picker</string>
 </resources>

@@ -9,7 +9,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:title="Country Picker"
+        app:title="@string/country_picker_toolbar_title"
         app:titleCentered="true"
         app:titleTextColor="@color/white"
         android:background="@color/purple_500"/>
